@@ -14,7 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_serranoltexx.mk
+    $(LOCAL_DIR)/lineage_serranoltexx_child.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_serranoltexx-userdebug
+    lineage_serranoltexx_child-eng \
+    lineage_serranoltexx_child-user \
+    lineage_serranoltexx_child-userdebug
