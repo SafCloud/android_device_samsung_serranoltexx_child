@@ -22,7 +22,7 @@ $(call inherit-product, device/samsung/serranoltexx/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_mini_phone.mk)
 
-PRODUCT_NAME := lineage_serranoltexx
+PRODUCT_NAME := lineage_serranoltexx_child
 PRODUCT_DEVICE := serranoltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
