@@ -28,7 +28,7 @@
 -include vendor/samsung/serranoltexx/BoardConfigVendor.mk
 
 # Manifest
-DEVICE_MANIFEST_FILE += device/samsung/s4mini/manifest.xml
+DEVICE_MANIFEST_FILE += device/samsung/serranoltexx_child/manifest.xml
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := serranolte,serranoltebmc,serranoltektt,serranoltexx
