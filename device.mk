@@ -27,9 +27,3 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/serranoltexx/overlay
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.gsm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.gsm.xml
-
-# FM radio
-#PRODUCT_PACKAGES += \
-#    android.hardware.broadcastradio@1.0-impl \
-#    FM2 \
-#    qcom.fmradio
